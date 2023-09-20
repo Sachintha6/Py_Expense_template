@@ -4,7 +4,7 @@ user_questions = [
     {
         "type":"input",
         "name":"name",
-        "message":"What is your name?",
+        "message":"Nom?",
     },
 ]
 
