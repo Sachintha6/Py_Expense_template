@@ -35,7 +35,7 @@ def new_expense(*args):
     expense.spender = infos['spender']
     
     f = open('expense_report.csv', 'a', newline='')
-    f.write(str(expense.amount) + "-" + str(expense.spender) + "-" + str(expense.label) + "\n"))
+    f.write(str(expense.amount) + "-" + str(expense.spender) + "-" + str(expense.label) + "\n")
     
     print("Expense Added !")
     return True
